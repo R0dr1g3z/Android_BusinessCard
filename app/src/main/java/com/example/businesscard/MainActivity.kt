@@ -64,7 +64,7 @@ fun MiddleContent() {
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
 
-        Text(text = "Michael Rodrigo", fontSize = 40.sp)
+        Text(text = "Michael Rodrigo", fontSize = 40.sp, color = Color(0xFFFFFFFF))
         Text(text = "Android Developer", fontSize = 24.sp, color = Color(0xFF97B823))
     }
 }
@@ -89,7 +89,7 @@ fun BottomContent() {
                 tint = Color(0xFF97B823),
                 modifier = Modifier.padding(end = 8.dp)
             )
-            Text(text = "+48 562 867 233", fontSize = 24.sp)
+            Text(text = "+48 562 867 233", fontSize = 24.sp, color = Color(0xFFFFFFFF))
         }
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -104,7 +104,7 @@ fun BottomContent() {
                     .padding(end = 8.dp)
                     .size(24.dp)
             )
-            Text(text = "@Instagram", fontSize = 24.sp)
+            Text(text = "@Instagram", fontSize = 24.sp, color = Color(0xFFFFFFFF))
         }
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -117,7 +117,9 @@ fun BottomContent() {
                 tint = Color(0xFF97B823),
                 modifier = Modifier.padding(end = 8.dp)
             )
-            Text(text = "R0dr1g3z@gmail.com", fontSize = 24.sp)
+            Text(
+                text = "R0dr1g3z@gmail.com", fontSize = 24.sp, color = Color(0xFFFFFFFF)
+            )
         }
     }
 }
